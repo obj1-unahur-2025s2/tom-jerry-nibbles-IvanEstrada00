@@ -16,7 +16,7 @@ var energia = 50
 }
 
   method cazarRaton_ADistancia_(raton,metros){
-if(puedeCazarADistancia){comerRaton(raton.peso())}
+if(puedeCazarADistancia(metros)){comerRaton(raton.peso())}
   
 }
 
